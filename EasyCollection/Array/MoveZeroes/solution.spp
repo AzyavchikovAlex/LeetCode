@@ -1,0 +1,14 @@
+class Solution {
+ public:
+  void moveZeroes(vector<int>& nums) {
+    int insert_pos = 0;
+    for (int pos = 0; pos < nums.size(); ++pos) {
+      if (nums[pos] != 0) {
+        if (insert_pos != pos) {
+          std::swap(nums[pos], nums[insert_pos]);
+        }
+        ++insert_pos;
+      }
+    }
+  }
+};
