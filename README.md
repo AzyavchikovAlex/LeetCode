@@ -1,2 +1,2 @@
 # LeetCode
-Solving problems from the Letkode website
+Solving problems from the Leetkode website
